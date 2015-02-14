@@ -1,0 +1,20 @@
+site_name: Payday 2 BLT Documentation
+site_author: James Wilkinson
+repo_url: https://github.com/example/repository/
+theme: readthedocs
+pages:
+- ['index.md', 'Home']
+- ['globals/variables.md', 'Lua Globals', 'Global Lua Variables']
+- ['globals/functions.md', 'Lua Globals', 'Global Lua Functions']
+- ['mod_definition.md', 'Mod Definition', 'Mod Definition File']
+- ['lua/localization.md', 'Lua', 'Localization']
+- ['lua/hooks.md', 'Lua', 'Hooks']
+- ['lua/delayed_calls.md', 'Lua', 'Delayed Calls']
+- ['lua/json.md', 'Lua', 'Json']
+- ['lua/utils.md', 'Lua', 'Utilities']
+- ['lua/menu/menu_helper.md', 'Menus', 'Menu Helper']
+- ['lua/menu/menu_helper_hooks.md', 'Menus', 'Menu Helper Hooks']
+- ['lua/menu/json_menu.md', 'Menus', 'Json Menus']
+- ['lua/network/network.md', 'Networking', 'LuaNetwork']
+- ['lua/network/hooks.md', 'Networking', 'Hooks']
+- ['lua/network/extensions.md', 'Networking', 'Extensions']
