@@ -1,6 +1,6 @@
 site_name: Payday 2 BLT Documentation
 site_author: James Wilkinson
-repo_url: https://github.com/example/repository/
+repo_url: https://github.com/JamesWilko/Payday-2-BLT-Docs
 theme: readthedocs
 pages:
 - ['index.md', 'Home']
