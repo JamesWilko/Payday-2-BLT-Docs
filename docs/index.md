@@ -13,6 +13,7 @@ All of the included Lua libraries are documented here, so that you can learn how
 	- [Localization](lua/localization.md)
 	- [Hooks](lua/hooks.md)
 	- [Delayed Calls](lua/delayed_calls.md)
+	- [Notifications](lua/notifications.md)
 	- [JSON](lua/json.md)
 	- [Utilities](lua/utils.md)
 - Menus
