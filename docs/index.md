@@ -7,6 +7,7 @@ All of the included Lua libraries are documented here, so that you can learn how
 - Globals
 	- [Global Variables](globals/variables.md)
 	- [Global Functions](globals/functions.md)
+	- [Files and IO](globals/file.md)
 - Mod Defintions
 	- [Mod Definition File](mod_definition.md)
 - Lua

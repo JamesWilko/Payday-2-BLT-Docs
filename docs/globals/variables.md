@@ -20,3 +20,8 @@ intended to be used at some point in the future, such as in a Hook.
 A variable containing the path to the mods logs folder.  
 
 	LogsPath: mods/logs/
+
+### SavePath
+A variable containing the path to the save files folder.  
+
+	SavePath: mods/saves/

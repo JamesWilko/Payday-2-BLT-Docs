@@ -6,25 +6,6 @@ Prints a string to the developer console, and saves it in the log file.
 	log( "Hello World!" )
 	log( tostring(managers.player:player_unit():key()) )
 
-### file.GetDirectories( path )
-Get all child directories of the specified path, relative to the PAYDAY 2 executable.  
-`path` The path to check for child directories.  
-
-	file.GetDirectories( "mods/" )
-
-### file.GetFiles( dir )
-Get all files inside the specified directory `dir`.  
-`dir` The directory to check for any child files.  
-
-	file.GetFiles( "mods/base/lua/" )
-
-### file.RemoveDirectory( path )
-Removes an empty directory at directory `path`.
-`path` The path to the directory to remove.
-`returns` True if the directory was removed, false if the directory could not be removed.
-
-	local removed = file.RemoveDirectory( "mods/my_mod/" )
-
 ### dohttpreq( url, callback(data, id), [progress_callback(id, bytes, total_bytes)] )
 Performs a HTTP/S request to the specified URL. If successful, returns any retrieved data to the callback.  
 `url` The URL to attempt to retrieve data from.  

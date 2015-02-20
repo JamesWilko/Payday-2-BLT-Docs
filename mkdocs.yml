@@ -4,8 +4,9 @@ repo_url: https://github.com/JamesWilko/Payday-2-BLT-Docs
 theme: readthedocs
 pages:
 - ['index.md', 'Home']
-- ['globals/variables.md', 'Lua Globals', 'Global Lua Variables']
-- ['globals/functions.md', 'Lua Globals', 'Global Lua Functions']
+- ['globals/variables.md', 'Lua Globals', 'Global Variables']
+- ['globals/functions.md', 'Lua Globals', 'Global Functions']
+- ['globals/file.md', 'Lua Globals', 'Files and IO']
 - ['mod_definition.md', 'Mod Definition', 'Mod Definition File']
 - ['lua/localization.md', 'Lua', 'Localization']
 - ['lua/hooks.md', 'Lua', 'Hooks']
