@@ -12,6 +12,7 @@ pages:
 - ['lua/hooks.md', 'Lua', 'Hooks']
 - ['lua/delayed_calls.md', 'Lua', 'Delayed Calls']
 - ['lua/notifications.md', 'Lua', 'Notifications']
+- ['lua/quick_menu.md', 'Lua', 'QuickMenu']
 - ['lua/json.md', 'Lua', 'Json']
 - ['lua/utils.md', 'Lua', 'Utilities']
 - ['lua/menu/menu_helper.md', 'Menus', 'Menu Helper']

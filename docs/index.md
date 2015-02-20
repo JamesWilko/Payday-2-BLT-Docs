@@ -15,6 +15,7 @@ All of the included Lua libraries are documented here, so that you can learn how
 	- [Hooks](lua/hooks.md)
 	- [Delayed Calls](lua/delayed_calls.md)
 	- [Notifications](lua/notifications.md)
+	- [QuickMenu](lua/quick_menu.md)
 	- [JSON](lua/json.md)
 	- [Utilities](lua/utils.md)
 - Menus
