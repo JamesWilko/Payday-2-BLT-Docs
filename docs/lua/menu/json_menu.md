@@ -43,6 +43,7 @@ These keys are used in all items in the `items` array.
 `title` The key for the name of this menu item. This is a localized value.  
 `description` The key for the description of this menu item. This is a localized value.  
 `callback` The callback function to call on the `MenuCallbackHandler` when this item is modified.  
+`[localized]` Should the title and description be used as localization keys. Optional, defaults to true.  
 
 ### Button
 Buttons do not need any extra keys in order to function. As long as their callback key is set, they will call the callback function whenever they are pressed.  

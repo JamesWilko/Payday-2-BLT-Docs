@@ -73,6 +73,7 @@ Adds a button to the menu specified in the table `button_data`, as well as the d
 `[button_data: disabled_color]` The display color of this button when it is disabled. Optional.  
 `[button_data: next_node]` The ID of the menu which should be opened when this button is clicked. Optional, leaving it as nil will not open a menu when clicked.
 `[button_data: priority]` The position to display this button in the menu, higher values display higher in the menu. Optional.  
+`[button_data: localized]` Should this button use localized title and description strings. Optional, defaults to true.  
 
 	MenuHelper:AddButton({
 		id = "example_button",
@@ -112,7 +113,7 @@ Adds a toggle button to the menu specified in the table `toggle_data`, as well a
 `[toggle_data: disabled_color]` The display color of this toggle when it is disabled. Optional.  
 `[toggle_data: icon_by_text]` Places the icon up against the name text of the toggle if true. Optional, defaults to false.  
 `[toggle_data: priority]` The position to display this divider in the menu, higher values display higher in the menu. Optional.  
-
+`[toggle_data: localized]` Should this toggle use localized title and description strings. Optional, defaults to true.  
 
 	MenuHelper:AddToggle({
 		id = "example_toggle",
@@ -139,6 +140,7 @@ Adds a slider to the menu specified in the table `slider_data`, as well as the d
 `slider_data: menu_id` The ID of the menu which this slider should be created on.  
 `[slider_data: show_value]` Displays the value of the slider. Optional, defaults to true.   
 `[slider_data: disabled_color]` The display color of this slider when it is disabled. Optional.  
+`[slider_data: localized]` Should this slider use localized title and description strings. Optional, defaults to true.  
 
 	MenuHelper:AddSlider({
 		id = "example_slider",
@@ -164,6 +166,7 @@ Adds a multiple choice item to the menu specified in the table `multi_data`, as 
 `multi_data: menu_id` The ID of the menu which this multiple choice should be created on.  
 `[multi_data: value]` The default value to be shown when this multiple choice is displayed. Optional, defaults to the first available item.  
 `[multi_data: priority]` The position to display this divider in the menu, higher values display higher in the menu. Optional.  
+`[multi_data: localized]` Should this multiple choice use localized title and description strings. Optional, defaults to true.  
 
 	local items = {
 		"First Item",
@@ -194,6 +197,7 @@ Adds a customizable keybinding to the menu specified. Keybinds will automaticall
 `[bind_data: binding]` The default key for which this keybind is assigned. Optional, defaults to unbound.  
 `[bind_data: button]` The default key for which this keybind is assigned. Optional, defaults to unbound.  
 `[bind_data: priority]` The position to display this keybind in the menu, higher values display higher in the menu. Optional.  
+`[bind_data: localized]` Should this keybind use localized title and description strings. Optional, defaults to true.  
 
 	local default_key = "K"
 	MenuHelper:AddKeybinding({
