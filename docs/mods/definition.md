@@ -95,6 +95,8 @@ A script to run when a key is pressed. These keybinds can be customized in-game,
 `script_path` The path to the script that should be ran when the keybind is pressed.  
 `run_in_menu` A boolean of whether this keybind should run when pressed during the menu state.  
 `run_in_game` A boolean of whether this keybind should run when pressed during the game state.  
+`localized` A boolean of if the menu should attempt to use the name and description as localization keys.
+Use `false` if you wish to just type a name and description in.
 
 	"keybinds" : [
 		{
@@ -104,6 +106,7 @@ A script to run when a key is pressed. These keybinds can be customized in-game,
 			"script_path" : "test.lua",
 			"run_in_menu" : true,
 			"run_in_game" : true,
+			"localized" : false
 		}
 	]
 
