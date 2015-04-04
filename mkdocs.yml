@@ -7,6 +7,7 @@ pages:
 - ['globals/variables.md', 'Lua Globals', 'Global Variables']
 - ['globals/functions.md', 'Lua Globals', 'Global Functions']
 - ['globals/file.md', 'Lua Globals', 'Files and IO']
+- ['globals/console.md', 'Lua Globals', 'Debug Console']
 - ['mods/definition.md', 'Mods', 'Mod Definition File']
 - ['mods/updates.md', 'Mods', 'Automatic Updates']
 - ['mods/manager.md', 'Mods', 'Mod Manager']

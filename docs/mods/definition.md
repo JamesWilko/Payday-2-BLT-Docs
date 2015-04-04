@@ -89,7 +89,7 @@ _Previously Keybinds in PD2Hook.yml_
 A script to run when a key is pressed. These keybinds can be customized in-game, instead of being set to a specific hard-coded key.  
 
 `keybinds` An array containing generic keybind information. Each keybind will be saved and loaded automatically for you.   
-`keybind_id` A unique ID for your keybind.  
+`keybind_id` A unique ID for your keybind. Your keybind will be saved and loaded via this ID, so make sure that it relates to your mod so that no other mods can override it.  
 `name` The name of the keybind to display in the keybinds menu.  
 `description` A short of description of your keybind.  
 `script_path` The path to the script that should be ran when the keybind is pressed.  
@@ -102,7 +102,7 @@ Use `false` if you wish to just type a name and description in.
 		{
 			"keybind_id" : "keybind_example_test",
 			"name" : "Test Keybind",
-			"description" : "An example keybind for demonstration"
+			"description" : "An example keybind for demonstration",
 			"script_path" : "test.lua",
 			"run_in_menu" : true,
 			"run_in_game" : true,
