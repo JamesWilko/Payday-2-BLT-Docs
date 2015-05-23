@@ -136,12 +136,11 @@ Available categories are: `assault_rifle`, `pistol`, `smg`, `shotgun`, `saw`, `l
 `category` A string value containing the category to check that the secondary is in.  
 `returns` True if the secondary weapon is in the category, false otherwise.  
 
-	local is_smg = Utils:IsCurrentPrimaryOfCategory( "smg" )
+	local is_smg = Utils:IsCurrentSecondaryOfCategory( "smg" )
 
-### Utils:IsCurrentWeapon( category )
-Checks if the local player's equipped weapon is of a specific category of firearm.  
-Available categories are: `assault_rifle`, `pistol`, `smg`, `shotgun`, `saw`, `lmg`, `snp`, `grenade_launcher`, `akimbo`, `minigun`, `flamethrower`  
-`category` A string value containing the category to check that the currently equipped weapon is in.  
-`returns` True if the current equipped weapon is in the category, false otherwise.  
+### Utils:IsCurrentWeapon( type )
+Checks if the local player's equipped weapon is a specific firearm.  
+`type` A string value containing the ID of the weapon.  
+`returns` True if the current equipped weapon matches `type`, false otherwise.  
 
-	local is_rifle = Utils:IsCurrentPrimaryOfCategory( "assault_rifle" )
+	local is_UAR = Utils:IsCurrentWeapon( "aug" )
