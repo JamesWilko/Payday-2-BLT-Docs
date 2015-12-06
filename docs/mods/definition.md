@@ -142,6 +142,7 @@ Use `false` if you wish to just type a name and description in.
 				"script_path" : "test.lua",
 				"run_in_menu" : true,
 				"run_in_game" : true,
+				"localized" : false
 			}
 		]
 	}
