@@ -138,7 +138,7 @@ Use `false` if you wish to just type a name and description in.
 			{
 				"keybind_id" : "keybind_example_test",
 				"name" : "Test Keybind",
-				"description" : "An example keybind for demonstration"
+				"description" : "An example keybind for demonstration",
 				"script_path" : "test.lua",
 				"run_in_menu" : true,
 				"run_in_game" : true,
