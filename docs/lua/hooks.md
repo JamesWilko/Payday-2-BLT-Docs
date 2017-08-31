@@ -54,7 +54,7 @@ Automatically hooks a function to be called before the specified function on a s
 `id` The unique identifier for this pre-hook.  
 `pre_call` The function that should be called before `func` is called on `object`.  
 
-	Hooks:PreCall( PlayerManager, "init", "TestPrePlayerManagerInit", function(ply)
+	Hooks:PreHook( PlayerManager, "init", "TestPrePlayerManagerInit", function(ply)
 		log("PlayerManager Pre-initialized")
 	end )
 
@@ -69,9 +69,9 @@ Automatically hooks a function to be called after the specified function on a sp
 `object` The object for the post-hook to search for the `func` to hook.  
 `func` A function name, as a string, on the `object` to be post-hooked.  
 `id` The unique identifier for this post-hook.  
-`pre_call` The function that should be called after `func` is called on `object`.  
+`post_call` The function that should be called after `func` is called on `object`.  
 
-	Hooks:Post( PlayerManager, "init", "TestPostPlayerManagerInit", function(ply)
+	Hooks:PostHook( PlayerManager, "init", "TestPostPlayerManagerInit", function(ply)
 		log("PlayerManager Post-initialized")
 	end )
 
