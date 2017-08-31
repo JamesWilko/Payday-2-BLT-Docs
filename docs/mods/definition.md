@@ -33,7 +33,7 @@ _Previously Post-Require Scripts in PD2Hook.yml_
 The Payday 2 files to hook and run a specified lua script after. The hooks key is an array of objects.
 
 `hooks` The array of objects containing a `hook_id` and a `script_path`.  
-`hook_id` The Payday 2 script file to run the script in `script_path` after.  
+`hook_id` The Payday 2 script file to run the script in `script_path` after. To wildcard scripts, enter the hook_id as an asterisk, or "*". This will make it apply to every script in the game.  
 `script_path` The path to your Lua script to run. This is relative to your mod folder.  
 
 	"hooks" : [
@@ -53,7 +53,7 @@ _Previously Pre-Require Scripts in PD2Hook.yml_
 Identical to `Hooks`, except that these will run **before** the Payday 2 script defined in `hook_id`.
 
 `pre_hooks` The array of objects containing a `hook_id` and a `script_path`.  
-`hook_id` The Payday 2 script file to run the script in `script_path` before.  
+`hook_id` The Payday 2 script file to run the script in `script_path` before. To wildcard scripts, enter the hook_id as an asterisk, or "*". This will make it apply to every script in the game.  
 `script_path` The path to your Lua script to run. This is relative to your mod folder.  
 
 	"pre_hooks" : [
@@ -69,7 +69,7 @@ _Previous Persist-Scripts in PD2Hook.yml_
 A script in `script_path` which is run every frame until the global variable specified in `global` is set to anything other than false or nil.  
 
 `persist_scripts` The array of objects containing a `global` and a `script_path`.  
-`global`  The global value to associate with `script_path`.  
+`global`  The global value to associate with `script_path`. To wildcard scripts, enter the global as an asterisk, or "*". This will make it apply to every script in the game.  
 `script_path` The script to continuously run until the global variable `global` is set to a value other than false or nil.  
 
 	"persist_scripts" : [
